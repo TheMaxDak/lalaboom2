@@ -1,328 +1,71 @@
-# lalaboom2
+1)root@f798856ead4d:/home# ls стулья из сельдерея классическое создание dir1 dir2 dir3 file3.txt практика 1 записывает тестовые овощи root@f798856ead4d:/home# классика mkdir root@f798856ead4d:/home# ls стулья из сельдерея классическая классика создает dir1 dir2 dir3 file3.txt практика 1 записывает тестовые овощи
 
-  root@bd16a44759bf:/# ls
-	
-	
-  bin  boot  dev  docker-entrypoint.d  docker-entrypoint.sh  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
-	
-  root@bd16a44759bf:/# ls -F --color
-	
-  bin/  boot/  dev/  docker-entrypoint.d/  docker-entrypoint.sh*  etc/  home/  lib/  lib64/  media/  mnt/  opt/  proc/  root/  run/  sbin/  srv/  sys/  tmp/  usr/  var/
-	
-  root@bd16a44759bf:/# ls -F --color ~
-	
-  root@bd16a44759bf:/# ls -F --color~
-	
-  ls: unrecognized option '--color~'
-	
-  Try 'ls --help' for more information.
-	
-  root@bd16a44759bf:~# pwd
-	
-/root
+2)root@f798856ead4d:/home# классика rmdir root@f798856ead4d:/home# ls стулья из сельдерея классическое создание dir1 dir2 dir3 file3.txt практика 1 записывает тестовые овощи
 
-root@bd16a44759bf:~# ls
+3)root@f798856ead4d:/home# uname -Linux f798856ead4d 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 x86_64 x86_64 GNU/Linux
 
-root@bd16a44759bf:~# pwd
+4)root@f798856ead4d:/home# uname -s Linux
 
-/root
+5)root@f798856ead4d:/home# uname -r 4.19.0-16-amd64
 
-root@bd16a44759bf:~# ?
+6)root@f798856ead4d:/home# дата Пт 15 октября 15:47:41 МСК 2021
 
-bash: ?: command not found
+9)/чистый
 
-root@bd16a44759bf:~# /
+10)root@f798856ead4d:/home#pwd /главная
 
-bash: /: Is a directory
+11)root@f798856ead4d:/home# cd ~ root@f798856ead4d:~# ls classics dir1 dir2 dir3 файл1 файл2 файл3 t.sh тест тест1 тест2
 
-root@bd16a44759bf:~# pwd/home/user/
+12)root@f798856ead4d:# ls //отображает содержимое каталога classics dir1 dir2 dir3 file1 file2 file3 t.sh test test1 test2 root@f798856ead4d:# ls -R //рекурсивно отображает содержимое поддиректорий .: classics dir1 dir2 dir3 file1 file2 file3 t.sh test test1 test2
 
-bash: pwd/home/user/: No such file or directory
+./классика:
 
-root@bd16a44759bf:~# cd
+./dir1: f1
 
-root@bd16a44759bf:~# mkdir test
+./dir2:
 
-root@bd16a44759bf:~# "mkdir test"
+./dir3:
 
-bash: mkdir test: command not found
+./тест: субтест
 
-root@bd16a44759bf:~# mkdir "test"
+./тест/субтест:
 
-mkdir: cannot create directory 'test': File exists
+./тест1: субтест
 
-root@bd16a44759bf:~# mkdir "test1"
+./тест1/субтест:
 
-root@bd16a44759bf:~# ls -F --color test1 
+./тест2: субтест
 
-root@bd16a44759bf:~# ls -F --color test1/
+./тест2/субтест:
 
-root@bd16a44759bf:~# ls -F --color "test1/"
+13)root@f798856ead4d:~# ls -a . ... bash_history .bashrc .local .профиль классика dir1 dir2 dir3 файл1 файл2 файл3 t.sh тест тест1 тест2
 
-root@bd16a44759bf:~# ls -F --color  
+14)root@f798856ead4d:~# ls-l всего 32 drwxr-xr-x 2 корневой корень 4096 15 октября 15:52 классика drwxr-xr-x 2 корневой корень 4096 13 октября 16:19 dir1 drwxr-xr-x 2 корневой корень 4096 13 октября 16:16 dir2 drwxr-xr-x 2 корневой корень 4096 13 октября 16:16 dir3-rw-r-r-1 корневой корень 0 13 октября 16:20 файл1-rw-r-r-1 корневой корень 0 13 октября 16:20 файл2-rw-r-r-1 корневой корень 0 13 октября 16:20 файл3-rw-r-r-1 корневой корень 366 6 октября 15:54 t.sh drwxr-xr-x 3 корневой корень 4096 13 октября 15:32 тест drwxr-xr-x 3 корневой корень 4096 15 октября 15:36 тест1 drwxr-xr-x 3 корневой корень 4096 15 октября 15:42 тест2
 
+15)root@f798856ead4d:~# ls -F classics/ dir1/ dir2/ dir3/ файл1 файл2 файл3 t.sh тест/ тест1/ тест2/
 
-test/  test1/
+16)root@f798856ead4d:~# cd классика
 
-root@bd16a44759bf:~# ls\           
-> ls 
-> 
-bash: lsls: command not found
+17)root@f798856ead4d:/classics# cd и т. Д./X11 root@f798856ead4d:/classics/etc/X11# ls root@f798856ead4d:~/классика/etc/X11# pwd /root/классика/etc/X11
 
-root@bd16a44759bf:~# ls 
+18)root@f798856ead4d:~/классика/и т. Д./X11# cd /
 
-test  test1
+19)root@f798856ead4d:/classics# компакт-диск и т. д root@f798856ead4d:/classics/etc# pwd /root/классика/и т. Д
 
-root@bd16a44759bf:~# ls test1
+20)root@f798856ead4d:/classics/etc# printf "Привет\n" > группа root@f798856ead4d:/classics/etc# группа кошек Привет
 
-root@bd16a44759bf:~# mkdir "test2"
+21)root@f798856ead4d:~/классика/и т. Д.# группа кошек passwd Привет, Доброе утро
 
-root@bd16a44759bf:~# ls
+22)root@f798856ead4d:~/классика/и т. Д.# группа кошек | глава -n 5 Привет
 
-test  test1  test2root@bd16a44759bf:/# cd
+23)root@f798856ead4d:~/классика/и т. Д.# cat passwd | хвост -n 3 Доброе утро
 
-12
+24)root@f798856ead4d:~/классика/и т. Д.# wc -l passwd 1 passwd
 
-root@bd16a44759bf:~# ^C
+25)root@f798856ead4d:~# студент cd
 
-13
+26)root@f798856ead4d:/student# сенсорный файл1 файл2 файл3 root@f798856ead4d:/student# ls файл1 файл2 файл3
 
-root@bd16a44759bf:~# ^C
+27)root@f798856ead4d:/student# mkdir дир1 дир2 дир3 root@f798856ead4d:/student# ls dir1 dir2 dir3 файл1 файл2 файл3
 
-14
-
-root@bd16a44759bf:~# ^C
-
-15
-
-root@bd16a44759bf:~# ^C
-
-root@bd16a44759bf:~# mkdir test1/223
-
-root@bd16a44759bf:~# ls
-
-test  test1  test2
-
-root@bd16a44759bf:~# ls/test1
-
-bash: ls/test1: No such file or directory
-
-root@bd16a44759bf:~# ls test1  
-
-223
-
-root@bd16a44759bf:~# mkdir classics 
-
-root@bd16a44759bf:~# ls
-
-classics  test  test1  test2
-
-root@bd16a44759bf:~# rmd classics
-
-bash: rmd: command not found
-
-root@bd16a44759bf:~# rmdir classics
-
-root@bd16a44759bf:~# ls
-
-test  test1  test2
-
-root@bd16a44759bf:~# your name
-
-bash: your: command not found
-
-root@bd16a44759bf:~# uname
-
-Linux
-
-root@bd16a44759bf:~# uname-s
-
-bash: uname-s: command not found
-
-root@bd16a44759bf:~# uname-r\
-
-> uname-r 
-> 
-bash: uname-runame-r: command not found
-
-root@bd16a44759bf:~# uname-runame -s
-
-bash: uname-runame: command not found
-
-root@bd16a44759bf:~# runame -s
-
-bash: runame: command not found
-
-root@bd16a44759bf:~# uname -r
-
-4.19.0-16-amd64
-
-root@bd16a44759bf:~# date
-
-Fri Oct 15 12:48:42 UTC 2021
-
-root@bd16a44759bf:~# date
-
-Fri Oct 15 12:48:48 UTC 2021
-
-root@bd16a44759bf:~# &
-
-bash: syntax error near unexpected token `&'
-
-root@bd16a44759bf:~# apt install cal
-
-Reading package lists... Done
-
-Building dependency tree        
-
-Reading state information... Done
-
-E: Unable to locate package cal
-
-root@bd16a44759bf:~# cal 
-
-bash: cal: command not found
-
-root@bd16a44759bf:~# date
-
-Fri Oct 15 12:51:06 UTC 2021
-
-root@bd16a44759bf:~# apt list
-
-Listing... Done
-
-root@bd16a44759bf:~# clear
-
-root@bd16a44759bf:~# ls
-
-test  test1  test2
-
-root@bd16a44759bf:~# cd ~
-
-root@bd16a44759bf:~# ls
-
-test  test1  test2
-
-root@bd16a44759bf:~# ls -R
-
-.:
-
-test  test1  test2
-
-./test:
-
-./test1:
-
-223
-
-./test1/223:
-
-./test2:
-
-root@bd16a44759bf:~# type
-
-root@bd16a44759bf:~# ls type
-
-ls: cannot access 'type': No such file or directory
-
-root@bd16a44759bf:~# -F
-
-bash: -F: command not found
-
-root@bd16a44759bf:~# - F
-
-bash: -: command not found
-
-root@bd16a44759bf:~# type -F
-
-bash: type: -F: invalid option
-
-type: usage: type [-afptP] name [name ...]
-
-root@bd16a44759bf:~# ls/ect/X11
-
-bash: ls/ect/X11: No such file or directory
-
-root@bd16a44759bf:~# cd/ect/X11
-
-bash: cd/ect/X11: No such file or directory
-
-root@bd16a44759bf:~# mkdir "x11"
-
-root@bd16a44759bf:~# cd/ect/X11
-
-bash: cd/ect/X11: No such file or directory
-
-root@bd16a44759bf:~# mkdir "ect"
-
-root@bd16a44759bf:~# mkdir ect "x11"
-
-mkdir: cannot create directory 'ect': File exists
-
-mkdir: cannot create directory 'x11': File exists
-
-root@bd16a44759bf:~# mkdir "ect"\
-
-> mkdir "ect"\
-> 
-> mkdir "ect"mkdir "ect" 
-> 
-mkdir: cannot create directory 'ectmkdir': File exists
-
-mkdir: cannot create directory 'ectmkdir': File exists
-
-mkdir: cannot create directory 'ect': File exists
-
-root@bd16a44759bf:~# mkdir "ect"
-
-mkdir: cannot create directory 'ect': File exists
-
-root@bd16a44759bf:~# cd ect     
-
-root@bd16a44759bf:~/ect# mkdir "x11"
-
-root@bd16a44759bf:~/ect# cd ect x11
-
-bash: cd: too many arguments
-
-root@bd16a44759bf:~/ect# cd x11
-
-root@bd16a44759bf:~/ect/x11# cd ~
-
-root@bd16a44759bf:~# cd ect
-
-root@bd16a44759bf:~/ect# mkdir group
-
-root@bd16a44759bf:~/ect# cd group
-
-root@bd16a44759bf:~/ect/group# cd ~
-
-root@bd16a44759bf:~# cd ect
-
-root@bd16a44759bf:~/ect# mkdir passwd
-
-root@bd16a44759bf:~/ect# cat
-
-ls 
-
-ls
-
-^C
-
-root@bd16a44759bf:~/ect# toucg group
-
-bash: toucg: command not found
-
-root@bd16a44759bf:~/ect# touch group
-
-root@bd16a44759bf:~/ect# touch passwd
-
-root@bd16a44759bf:~/ect# cat group
-
-cat: group: Is a directory
-
-root@bd16a44759bf:~/ect# head passwd
-
-head: error reading 'passwd': Is a directory
-
-root@bd16a44759bf:~/ect# 
+28)root@f798856ead4d:~/студент# cp файл1 dir1
