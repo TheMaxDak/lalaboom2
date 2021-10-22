@@ -4,9 +4,8 @@
 Тренировочные задания
 -------------------------
 
-#root@f798856ead4d:/# pwd/
-
-  bash: pwd/: No such file or directory
+ root@f798856ead4d:/# pwd/
+bash: pwd/: No such file or directory
   
   root@f798856ead4d:/# ~ $ pwd
   
